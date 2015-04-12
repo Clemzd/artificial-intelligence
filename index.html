@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Clement Bot</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./jquery-2.1.3.min.js"></script>
+    <script src="./taffy-min.js"></script>
+    <script src="./messagesdb.js"></script>
+    <script src="./app.js"></script>
+  </head>
+  <body class>
+    <div class="container">
+      <div class="fs-form-wrap" id="fs-form-wrap">
+        <div class="fs-title">
+          <h1>Projet d'intelligence artificielle par Clément Guet</h1>    
+        </div>
+      <div id="myform" class="fs-form fs-form-full">
+          <ol class="fs-fields">
+            <li class="fs-current">
+              <input id="iptQuestion" class="fs-anim-lower" name="iptQuestion" type="text" placeholder="Parlez à Clement..." required="">
+            </li>
+          </ol><!-- /fs-fields -->
+          <button id="btnSend" class="fs-submit" type="submit">Send answers</button>
+          <p id="response"></p>
+      </div>
+    </div>
+  </body>
+</html>
